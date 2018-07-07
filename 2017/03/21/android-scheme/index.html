@@ -571,12 +571,12 @@
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 <script>
-    var GUEST_INFO = ['nick','mail','link'];
-    var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+    var GUEST_INFO = ['nick', 'mail', 'link'];
+    var guest_info = 'nick,mail,link'.split(',').filter(function (item) {
         return GUEST_INFO.indexOf(item) > -1
     });
-    var notify = 'true' == true;
-    var verify = 'true' == true;
+    var notify = 'true' === 'true';
+    var verify = 'true' === 'true';
     new Valine({
         el: '.vcomment',
         notify: notify,
@@ -584,13 +584,12 @@
         appId: "8dmRT6SFoCaNHfWkhB1XMh3R-gzGzoHsz",
         appKey: "7j3XA9ALjYfoiITfURHoyFRd",
         placeholder: "Just go go",
-        pageSize:'10',
-        avatar:'identicon',
-        lang:'zh-cn',
+        pageSize: '10',
+        avatar: 'identicon',
+        lang: 'zh-cn',
         guest_info: guest_info
     });
 </script>
-
 
                 
             </div>
