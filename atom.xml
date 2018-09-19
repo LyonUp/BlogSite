@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Lyon&#39;s Blog</title>
+  
+  <subtitle>Now you see me</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://lihang.info/"/>
+  <updated>2018-03-18T08:01:02.272Z</updated>
+  <id>https://lihang.info/</id>
+  
+  <author>
+    <name>Hang Li</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android通过Scheme外部唤起</title>
+    <link href="https://lihang.info/2017/03/21/android-scheme/"/>
+    <id>https://lihang.info/2017/03/21/android-scheme/</id>
+    <published>2017-03-21T13:48:12.000Z</published>
+    <updated>2018-03-18T08:01:02.272Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;使用Scheme 从浏览器或其他应用中唤起本应用。&lt;/p&gt;
+&lt;h1 id=&quot;外部唤起Android应用&quot;&gt;&lt;a href=&quot;#外部唤起Android应用&quot; class=&quot;headerlink&quot; title=&quot;外部唤起Android应用&quot;&gt;&lt;/a&gt;外部唤起Android应用&lt;
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://lihang.info/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Android" scheme="https://lihang.info/tags/Android/"/>
+    
+  </entry>
+  
+</feed>
