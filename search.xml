@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search> 
   
+  
     
     <entry>
       <title>2021 年学习计划</title>
-      <link href="/2020/12/27/2021-study-plan/"/>
-      <content type="html"><![CDATA[<h1 id="2021-年学习计划"><a href="#2021-年学习计划" class="headerlink" title="2021 年学习计划"></a>2021 年学习计划</h1><h2 id="日计划"><a href="#日计划" class="headerlink" title="日计划"></a>日计划</h2><ul><li>7:30 ～ 9:30 看技术文档、源代码学习</li><li>9:30 ～ 11:30 <ul><li>工作日上班</li><li>周末自由支配</li></ul></li><li>11:30 ～ 12:30 午饭<ul><li>工作日看微信读书</li><li>周末刷刷 B站</li></ul></li><li>12:30 ～ 13:40 看博客、了解资讯</li><li>13:40 ～ 17:40<ul><li>工作日上班</li><li>周末学习或出门逛逛</li></ul></li><li>17:40 ～ 18:40 晚饭<ul><li>工作日看微信读书、散步</li><li>周末刷刷 Youtube、散步</li></ul></li><li>19:30 ～ 22:00<ul><li>写代码、刷算法题</li><li>工作日周二打羽毛球</li><li>工作日周四可能加班</li><li>周末酌情玩会儿游戏</li></ul></li><li>22:00 ～ 23:00<ul><li>洗漱前简单运动下</li><li>洗漱、收拾房间</li><li>睡前回顾</li></ul></li><li>23:20 ～ 次 7:20 起床</li></ul><p>由于存在各种变数，计划表不一定完美落实。但必须保证每天学习时间 6h，且至少产出：</p><ul><li>完成一道算法题 ( leetcode 记录)</li><li>理解一个知识点 ( typora 输出)</li></ul><h2 id="周计划"><a href="#周计划" class="headerlink" title="周计划"></a>周计划</h2><ul><li>与父母朋友通次话</li><li>至少完成一篇博客</li><li>看一部电影并分享</li><li>天气好出门溜一溜</li></ul><h2 id="月计划"><a href="#月计划" class="headerlink" title="月计划"></a>月计划</h2><ul><li>至少看完一本书</li><li>解锁一项新技能</li><li>多接触不同的人</li><li>分析月度的花销</li></ul>]]></content>
+      <link href="2020/12/27/2021-study-plan/"/>
+      <url>2020/12/27/2021-study-plan/</url>
+      
+        <content type="html"><![CDATA[<h1 id="2021-年学习计划"><a href="#2021-年学习计划" class="headerlink" title="2021 年学习计划"></a>2021 年学习计划</h1><h2 id="日计划"><a href="#日计划" class="headerlink" title="日计划"></a>日计划</h2><ul><li>7:30 ～ 9:30 看技术文档、源代码学习</li><li>9:30 ～ 11:30 <ul><li>工作日上班</li><li>周末自由支配</li></ul></li><li>11:30 ～ 12:30 午饭<ul><li>工作日看微信读书</li><li>周末刷刷 B站</li></ul></li><li>12:30 ～ 13:40 看博客、了解资讯</li><li>13:40 ～ 17:40<ul><li>工作日上班</li><li>周末学习或出门逛逛</li></ul></li><li>17:40 ～ 18:40 晚饭<ul><li>工作日看微信读书、散步</li><li>周末刷刷 Youtube、散步</li></ul></li><li>19:30 ～ 22:00<ul><li>写代码、刷算法题</li><li>工作日周二打羽毛球</li><li>工作日周四可能加班</li><li>周末酌情玩会儿游戏</li></ul></li><li>22:00 ～ 23:00<ul><li>洗漱前简单运动下</li><li>洗漱、收拾房间</li><li>睡前回顾</li></ul></li><li>23:20 ～ 次 7:20 起床</li></ul><p>由于存在各种变数，计划表不一定完美落实。但必须保证每天学习时间 6h，且至少产出：</p><ul><li>完成一道算法题 ( leetcode 记录)</li><li>理解一个知识点 ( typora 输出)</li></ul><h2 id="周计划"><a href="#周计划" class="headerlink" title="周计划"></a>周计划</h2><ul><li>与父母朋友通次话</li><li>至少完成一篇博客</li><li>看一部电影并分享</li><li>天气好出门溜一溜</li></ul><h2 id="月计划"><a href="#月计划" class="headerlink" title="月计划"></a>月计划</h2><ul><li>至少看完一本书</li><li>解锁一项新技能</li><li>多接触不同的人</li><li>分析月度的花销</li></ul>]]></content>
+      
       
       <categories>
           
@@ -22,10 +26,15 @@
       
     </entry>
     
+    
+    
     <entry>
       <title>Android通过Scheme外部唤起</title>
-      <link href="/2017/03/21/android-scheme/"/>
-      <content type="html"><![CDATA[<p>使用Scheme 从浏览器或其他应用中唤起本应用。</p><h1 id="外部唤起Android应用"><a href="#外部唤起Android应用" class="headerlink" title="外部唤起Android应用"></a>外部唤起Android应用</h1><p>只是简单记录一下~</p><h3 id="0-Scheme组成"><a href="#0-Scheme组成" class="headerlink" title="0.Scheme组成"></a>0.Scheme组成</h3><pre><code class="java">          &lt;data android:scheme=&quot;string&quot;                android:host=&quot;string&quot;                android:port=&quot;string&quot;                android:path=&quot;string&quot;                android:pathPattern=&quot;string&quot;                android:pathPrefix=&quot;string&quot;                android:mimeType=&quot;string&quot; /&gt;</code></pre><h3 id="1-注册响应scheme的Activity"><a href="#1-注册响应scheme的Activity" class="headerlink" title="1. 注册响应scheme的Activity"></a>1. 注册响应scheme的Activity</h3><pre><code class="groovy">            &lt;intent-filter&gt;                &lt;action android:name=&quot;android.intent.action.VIEW&quot; /&gt;                &lt;category android:name=&quot;android.intent.category.DEFAULT&quot; /&gt;                &lt;category android:name=&quot;android.intent.category.BROWSABLE&quot;/&gt;                &lt;data android:scheme=&quot;something&quot; /&gt;                &lt;data android:host=&quot;project.example.com&quot; /&gt;            &lt;/intent-filter&gt;</code></pre><h3 id="2-跳转入口"><a href="#2-跳转入口" class="headerlink" title="2.跳转入口"></a>2.跳转入口</h3><pre><code class="java">            // 只含了scheme和host            &quot;something://project.example.com&quot;</code></pre><h3 id="3-获取参数"><a href="#3-获取参数" class="headerlink" title="3.获取参数"></a>3.获取参数</h3><pre><code class="java">        Intent intent =getIntent();        sUri = intent.getData();        uri.getScheme();        uri.getHost();</code></pre>]]></content>
+      <link href="2017/03/21/android-scheme/"/>
+      <url>2017/03/21/android-scheme/</url>
+      
+        <content type="html"><![CDATA[<p>使用Scheme 从浏览器或其他应用中唤起本应用。</p><h1 id="外部唤起Android应用"><a href="#外部唤起Android应用" class="headerlink" title="外部唤起Android应用"></a>外部唤起Android应用</h1><p>只是简单记录一下~</p><h3 id="0-Scheme组成"><a href="#0-Scheme组成" class="headerlink" title="0.Scheme组成"></a>0.Scheme组成</h3><pre><code class="java">          &lt;data android:scheme=&quot;string&quot;                android:host=&quot;string&quot;                android:port=&quot;string&quot;                android:path=&quot;string&quot;                android:pathPattern=&quot;string&quot;                android:pathPrefix=&quot;string&quot;                android:mimeType=&quot;string&quot; /&gt;</code></pre><h3 id="1-注册响应scheme的Activity"><a href="#1-注册响应scheme的Activity" class="headerlink" title="1. 注册响应scheme的Activity"></a>1. 注册响应scheme的Activity</h3><pre><code class="groovy">            &lt;intent-filter&gt;                &lt;action android:name=&quot;android.intent.action.VIEW&quot; /&gt;                &lt;category android:name=&quot;android.intent.category.DEFAULT&quot; /&gt;                &lt;category android:name=&quot;android.intent.category.BROWSABLE&quot;/&gt;                &lt;data android:scheme=&quot;something&quot; /&gt;                &lt;data android:host=&quot;project.example.com&quot; /&gt;            &lt;/intent-filter&gt;</code></pre><h3 id="2-跳转入口"><a href="#2-跳转入口" class="headerlink" title="2.跳转入口"></a>2.跳转入口</h3><pre><code class="java">            // 只含了scheme和host            &quot;something://project.example.com&quot;</code></pre><h3 id="3-获取参数"><a href="#3-获取参数" class="headerlink" title="3.获取参数"></a>3.获取参数</h3><pre><code class="java">        Intent intent =getIntent();        sUri = intent.getData();        uri.getScheme();        uri.getHost();</code></pre>]]></content>
+      
       
       <categories>
           
@@ -41,6 +50,7 @@
         </tags>
       
     </entry>
+    
     
   
   
